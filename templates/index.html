@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Supermarket</title>
+    <!-- Add Bootstrap CSS link -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-5">
+        <h1>Welcome to Our Supermarket</h1>
+    </header>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h2>Explore Our Products</h2>
+            
+                <p>
+                    We offer a wide range of products, including fresh groceries, household items, electronics, and more.
+                    Explore our aisles to find the best deals and quality products for your needs.
+                </p>
+                <p>
+                    Our supermarket is dedicated to providing a convenient and pleasant shopping experience for our valued
+                    customers. Start shopping with us today!
+                </p>
+                <a class="btn btn-primary" href="{{url_for('shop')}}">To the shop</a>
+                <a class="btn btn-primary" href="{{url_for('about')}}">Learn More About Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS and jQuery scripts (optional, for advanced Bootstrap features) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
